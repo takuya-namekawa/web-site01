@@ -1,0 +1,180 @@
+@charset "UTF-8";
+
+body {
+  background-color: #f0f0f0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+.header {
+  position: relative;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
+  margin-left: 30px;
+  width: 100px;
+}
+
+.gnav {
+  padding-left: 60px;
+}
+.gnav__list {
+  display: flex;
+}
+
+.gnav-item {
+  padding-right: 30px;
+  font-size: 14px;
+}
+
+.header .header__inner li:last-child {
+  margin-right: 0;
+}
+
+.contact {
+  position: absolute;
+  right: 0;
+  width: 200px;
+  height: 80px;
+  line-height: 80px;
+  background-color: #000;
+  color: #fff;
+  font-size: 0.75rem;
+  display: inline-block;
+  text-align: center;
+}
+
+.main {
+  margin-bottom: 120px;
+}
+
+.main__img {
+  height: calc(100vh - 80px);
+  width: 100%;
+  object-fit: cover;
+}
+
+.container {
+  padding: 0 130px;
+  margin: 0 auto;
+}
+
+
+.news__heading {
+  position: relative;
+  margin-bottom: 80px;
+}
+
+.heading-primary {
+  font-size: 35px;
+  letter-spacing: 10.8px;
+  line-height: 1;
+  margin-bottom: 4px;
+}
+
+.heading-primary-sub {
+  font-size: 14px;
+  line-height: 2;
+}
+
+.heading-primary-sub::after {
+  content: "";
+  width: 40px;
+  height: 1px;
+  background-color: #000;
+  display: block;
+  margin-top: 28px;
+}
+
+.news__list {
+  display: flex;
+  margin-bottom: 125px;
+}
+
+.news__item {
+  width: 350px;
+  height: 85px;
+  border-right: 1px solid #000;
+  padding-top: 20px;
+}
+
+.datetime {
+  margin-right: 17px
+}
+.news__list-title {
+  font-size: 14px;
+  line-height: 3;
+}
+
+.pont-logo {
+  width: 51px;
+  height: 20px;
+  background-color: #000;
+  color: #fff;
+  font-size: 0.75rem;
+  display: inline-block;
+  text-align: center;
+  padding-top: 4px;
+}
+
+.news__item:nth-child(1) {
+  margin-right: 20px;
+
+}
+
+.news__item:nth-child(2) {
+  margin-right: 20px;
+
+}
+
+.news__item:nth-child(3) {
+  border-right: 0px solid #000;
+  width: 300px;
+  height: 85px;
+}
+
+.about {
+  position: relative;
+  margin-bottom: 250px;
+}
+
+.about__wrapper {
+  display: flex;
+}
+
+.figureArea {
+  width: 55%;
+}
+
+.about__img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+.about__textAria {
+  padding-left: 70px;
+  padding-right: 90px;
+  position: absolute;
+  top: 40%;
+  right: 10px;
+  width: 45%;
+}
+
+.about-text {
+  padding-top: 46px;
+  line-height: 2.3;
+  font-size: 14px;
+}
